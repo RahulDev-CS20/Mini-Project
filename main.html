@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worker Finder Website</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <header>
+        <a href="main.html" class="logo"><i class='bx bxs-hard-hat'></i>Worker Finder</a>
+        <!-- Menu Icon -->
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- Nav List -->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#about">About Us</a></li>
+        </ul>
+        <!-- Profile -->
+        <div class="profile">
+            <img src="img/profile.png" alt="">
+            <a href="index.php">Log Out<i class='bx bx-caret-down'></i></a>
+        </div>
+    </header>
+    <!-- Home -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!-- Slide 1-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>We are Worker Finder</span>
+                    <h1>Choose Worker Finder <br> The Best Worker Booking <br> Website</h1>
+                    <a href="categories.html" class="btn">Book now<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="img/home1.jpg" alt="">
+
+            </div>
+            <!-- Slide 2-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>We are Worker Finder</span>
+                    <h1>Choose Worker Finder <br> The Best Worker Booking <br> Website</h1>
+                    <a href="#" class="btn">Book now<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="img/home2.jpg" alt="">
+
+            </div>
+            <!-- Slide 3-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>We are Worker Finder</span>
+                    <h1>Choose Worker Finder <br> The Best Worker Booking <br> Website</h1>
+                    <a href="#" class="btn">Book now<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="img/home3.jpg" alt="">
+
+            </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </section>
+    <br><br>
+    <!-- Categories -->
+    <section class="categories" id="categories">
+        <div class="heading">
+            <h1>Browse Our Hottest <br><span>Categories</h1>
+                <a href="categories.html" class="btn">See All<i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+        <!-- Container Content -->
+        <div class="categories-container">
+            <!-- Box 1 -->
+            <div class="box box1">
+                <img src="img/cat1.png" alt="">
+                <h2>Plumber</h2>
+                <span>2 Workers</span>
+                <a href="cat1.html" class="bx">Book Now</a>
+        </div>
+        <!-- Box 2 -->
+        <div class="box box2">
+            <img src="img/cat2.png" alt="">
+            <h2>Carpenter</h2>
+            <span>2 Workers</span>
+            <a href="cat2.html" class="bx">Book Now</a>
+        </div>
+        <!-- Box 3 -->
+        <div class="box box3">
+            <img src="img/cat3.png" alt="">
+            <h2>Electrician</h2>
+            <span>2 Workers</span>
+            <a href="cat3.html" class="bx">Book Now</a>
+        </div>
+        <!-- Box 4 -->
+        <div class="box box4">
+            <img src="img/cat4.png" alt="">
+            <h2>Technician</h2>
+            <span>2 Workers</span>
+            <a href="cat4.html" class="bx">Book Now</a>
+        </div>
+        <!-- Box 5 -->
+        <div class="box box5">
+            <img src="img/cat5.png" alt="">
+            <h2>Constructor</h2>
+            <span>2 Workers</span>
+            <a href="cat5.html" class="bx">Book Now</a>
+        </div>
+        </div>
+    </section>
+    <br><br>
+    <!-- Contact Us -->
+    <section class="contact" id="contact" name="contact" style="margin-left: 225px; margin-right: 225px;">
+        <div class="heading">
+            <h1>Reach Out To Us<br><span>For Any Query</h1>
+                <a class="btn" onclick="call()">Call Us<i class='bx bxs-phone-call'></i></a>
+                <a href="https://www.instagram.com/dev_side1/" target="_blank" class="btn">Instagram<i class='bx bxl-instagram' ></i></a>
+                <a href="https://m.facebook.com/100054715587265/" target="_blank" class="btn">Facebook<i class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://t.me/rahul123dev" target="_blank" class="btn">Telegram<i class='bx bxl-telegram' ></i></a>
+        </div>
+    </section>
+    <br><br>
+    <!-- About -->
+    <section class="about" id="about">
+        <img src="img/about.png" alt="" style="margin-left: 0px;">
+        <div class="about-text">
+            <span>About Us</span>
+                <p>Worker finder project began recently by pioneering a better way of working, giving employment to the workers and better way to help the people to find workers whenever they want.</p>
+                <p>Our mission to create economic opportunities so people have better lives has taken us so much further. As a result...</p>
+                <a href="about.html" class="btn">Learn More<i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+    </section>
+    <br><br><br>
+
+    <!-- Footer -->
+    <section class="footer" id="footer">
+        <div class="footer-box">
+            <a href="main.html" class="logo"><i class='bx bxs-hard-hat'></i>Worker Finder</a>
+            <p>GLA University, Mathura <br>Uttar Pradesh, India 281406</p>
+            <div class="social">
+                <a onclick="call()"><i class='bx bxs-phone-call'></i></a>
+                <a href="https://www.instagram.com/dev_side1/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://m.facebook.com/100054715587265/" target="_blank"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://t.me/rahul123dev" target="_blank"><i class='bx bxl-telegram' ></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h2>Categories</h2>
+            <a href="cat1.html">Plumber</a>
+            <a href="cat2.html">Carpenter</a>
+            <a href="cat3.html">Electrician</a>
+            <a href="cat4.html">Technician</a>
+            <a href="cat5.html">Constructor</a>
+        </div>
+        <div class="footer-box">
+            <h2>More Categories</h2>
+            <a href="cat6.html">Mechanic</a>
+            <a href="cat7.html">Driver</a>
+            <a href="cat8.html">Home Cleaner</a>
+        </div>
+        <div class="footer-box">
+            <h2>Useful Links</h2>
+            <a href="about.html">About Us</a>
+            <a href="main.html#contact">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Link to JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>
